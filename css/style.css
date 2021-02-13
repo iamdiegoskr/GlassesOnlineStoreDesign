@@ -140,6 +140,7 @@ body {
     position: relative;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 .slider {
@@ -147,6 +148,7 @@ body {
     width: 600%;
     height: 220px;
     background: red;
+    margin-left: -100%;
 }
 
 .slider .slider-item {
