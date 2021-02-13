@@ -87,6 +87,7 @@ body {
     width: 90%;
     max-width: 720px;
     margin-top: 12px;
+    margin-bottom: 18px;
     padding: 6px;
     border: 1px solid #d1d1d1;
     background-image: url(../icons/search.png);
@@ -130,4 +131,98 @@ body {
 .container-user {
     width: 100%;
     text-align: center;
+}
+
+
+/*SLIDER*/
+
+.section-slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.slider {
+    display: flex;
+    width: 600%;
+    height: 220px;
+    background: red;
+}
+
+.slider .slider-item {
+    position: relative;
+    width: 100%;
+}
+
+.slider .slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-overflow .title-banner {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.slider-overflow .description-banner {
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.slider-overflow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.slider-overflow .button-shop {
+    width: 180px;
+    text-decoration: none;
+    padding: 8px 12px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #d21244;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.slider-overflow .button-shop:hover {
+    background: #d21244;
+}
+
+
+/*BUTTONS*/
+
+.btn-slider {
+    position: absolute;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: calc(50% - 24px);
+}
+
+.btn-left {
+    background-image: url('../icons/arrowleft.png');
+    left: 0;
+}
+
+.btn-rigth {
+    background-image: url('../icons/arrowright.png');
+    right: 0;
 }
