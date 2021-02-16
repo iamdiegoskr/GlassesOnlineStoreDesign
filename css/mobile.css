@@ -263,6 +263,17 @@ body {
     box-shadow: 0px 1px 12px 0px #d1d1d1;
 }
 
+
+/* .product::before {
+    content: "keloke";
+    position: absolute;
+    background: red;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    transform: rotate(-90deg);
+} */
+
 .product .new-product {
     display: block;
     width: 70px;
