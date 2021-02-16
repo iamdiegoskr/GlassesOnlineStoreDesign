@@ -43,9 +43,9 @@ function beforeBanner() {
 }
 
 
-// setInterval(() => {
-//     nextBanner()
-// }, 5000);
+setInterval(() => {
+    nextBanner()
+}, 5000);
 
 
 buttonRight.addEventListener('click', nextBanner)

@@ -1,0 +1,6 @@
+.container-products {
+    /* padding: 0;
+    gap: 16px; */
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+}
